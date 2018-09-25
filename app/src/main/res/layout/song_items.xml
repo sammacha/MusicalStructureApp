@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121">
+
+    <TextView
+        android:textColor="@color/textColor"
+        android:layout_width="wrap_content"
+        android:id="@+id/song_title"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="@string/god_s_plan"
+        android:textSize="25sp"
+        android:layout_marginStart="30dp" />
+    <TextView
+        android:layout_below="@+id/song_title"
+        android:textColor="@color/textColor"
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        android:text="@string/drake"
+        android:layout_marginStart="30dp" />
+
+    <ImageView
+        android:id="@+id/play_button"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:src="@mipmap/play"
+        android:layout_marginLeft="170dp"/>
+</RelativeLayout>

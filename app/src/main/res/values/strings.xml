@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CoolMusic</string>
+    <string name="now_playing">Now playing</string>
+    <string name="god_s_plan">God\'s Plan</string>
+    <string name="drake">Drake</string>
+    <string name="playlist">Playlist</string>
+</resources>
